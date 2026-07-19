@@ -1,0 +1,17 @@
+services:
+  hookbox:
+    build: .
+    ports:
+      - "5070:5070"
+    environment:
+      PORT: "5070"
+      HOST: "0.0.0.0"
+      MAX_BODY_BYTES: "262144"
+      # PUBLIC_BASE_URL: "https://hooks.example.com"
+      # CORS_ORIGIN: "https://hooks.example.com"
+    volumes:
+      - hookbox-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  hookbox-data:
