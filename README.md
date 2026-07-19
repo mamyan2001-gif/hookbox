@@ -1,5 +1,8 @@
 # Hookbox
 
+![Stars](https://img.shields.io/github/stars/mamyan2001-gif/hookbox?style=social)
+![Forks](https://img.shields.io/github/forks/mamyan2001-gif/hookbox?style=social)
+
 ![Node](https://img.shields.io/badge/Node-18+-339933)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
