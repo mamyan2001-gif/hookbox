@@ -7,9 +7,20 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
 
-**Self-hosted webhook inbox** — create a capture URL, inspect incoming HTTP requests, verify HMAC signatures, and replay events. Inspired by webhook-tester / RequestBin.
+**Self-hosted webhook inbox** — create a capture URL, inspect requests, verify HMAC, and replay events.
 
-A lightweight open-source tool for local development, freelancers, and small teams.
+Built for local development, freelancers, and small teams who don’t want another SaaS webhook debugger.
+
+> **Demo:** set your public URL in repo About → Website after deploy.
+
+```bash
+git clone https://github.com/mamyan2001-gif/hookbox.git
+cd hookbox
+docker compose up --build
+# → http://localhost:5070
+```
+
+Inspired by webhook-tester / RequestBin.
 
 ## Features
 
